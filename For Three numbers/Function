@@ -1,0 +1,18 @@
+#include <stdio.h>
+int gcd (int a, int b)
+{
+    if (a==b)
+        return a;
+    if (a>b)
+        return gcd(a-b,b);
+    return gcd(a,b-a);
+}
+int main()
+{
+    int a,b,c;
+    printf("Enter three numbers: ");
+    scanf("%d %d %d",&a,&b,&c);
+
+    printf("GCD of numbers: %d\n",gcd(gcd(a,b),gcd(b,c)));
+    return 0;
+}
