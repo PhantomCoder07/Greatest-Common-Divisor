@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+    int i,a,b,c,ans=0;
+    printf ("Enter three numbers: ");
+    scanf ("%d %d %d",&a,&b,&c);
+    i=a;
+    while (i>0)
+    {
+        if (a%i==0 && b%i==0 && c%i==0)
+        {
+            ans=i;
+            break;
+        }
+        i--;
+    }
+    printf ("The GCD of %d, %d and %d is= %d",a,b,c,ans);
+    return 0;
+}
