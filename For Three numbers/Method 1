@@ -12,6 +12,6 @@ int main()
             break;
         }
     }
-    printf ("The GCD of %d, %d and %d is= %d",a,b,c,ans);
+    printf ("The GCD of %d, %d and %d is: %d",a,b,c,ans);
     return 0;
 }
