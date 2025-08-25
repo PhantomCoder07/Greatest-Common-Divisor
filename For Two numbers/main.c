@@ -13,7 +13,7 @@ int main()
             break;
         }
     }
-    printf ("The GCD of %d and %d is= %d",a,b,ans);
+    printf ("The GCD of %d and %d is: %d",a,b,ans);
     return 0;
 }
 // while loop
@@ -33,7 +33,7 @@ int main()
         }
         i--;
     }
-    printf ("The GCD of %d and %d is= %d",a,b,ans);
+    printf ("The GCD of %d and %d is: %d",a,b,ans);
     return 0;
 }
 // do-while loop
@@ -54,7 +54,7 @@ int main()
         i--;
     }
     while (i>0);
-    printf ("The GCD of %d and %d is= %d",a,b,ans);
+    printf ("The GCD of %d and %d is: %d",a,b,ans);
     return 0;
 }
 // Using recurtion
