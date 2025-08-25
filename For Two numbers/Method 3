@@ -15,6 +15,6 @@ int main()
         i--;
     }
     while (i>0);
-    printf ("The GCD of %d and %d is= %d",a,b,ans);
+    printf ("The GCD of %d and %d is: %d",a,b,ans);
     return 0;
 }
